@@ -11,7 +11,8 @@ import nltk
 from nltk.corpus import stopwords
   
 # Create a pdf file object from a pdf file stored locally
-# In the example at hand, Volkswagen's annual report 2018 is being used
+# In the example at hand, Volkswagen's annual report 2018 is being used.
+# It can be downloaded from Volkswagen's investor relations website.
 pdfFilename = 'gesamt_vw_gb18.pdf'
 pdfFileObj = open(pdfFilename, 'rb') 
   
